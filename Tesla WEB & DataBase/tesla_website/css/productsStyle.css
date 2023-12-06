@@ -1,0 +1,57 @@
+.discount{
+    background-color: rgb(128, 0, 0);
+    font-weight: bold;
+    border-radius: 20px;
+}
+.shopTable{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 4px groove #c9c9c9;
+    background-color: #6e6c6c;
+    border-radius: 50px;
+}
+.shopTrdh{
+    border: 1px groove #c9c9c9;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+.mainInfo2{
+    display: table;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-style: oblique;
+    color: #c9c9c9;
+    font-size:x-large;
+    background-color: #353535;
+    padding: 10px;
+    width: 100px;
+}
+.priceC{
+    display: table;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-weight:bolder;
+    color: #000000;
+    font-size:xx-large;
+    background-color: #dddddd;
+    padding: 10px;
+    width: 100px;
+    opacity: 0.8;
+    border-radius: 80px;
+}
+.priceC span{
+    background-color: rgb(128, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+}
+.carTable {
+    margin: auto;
+    width: 95%;
+    border: 4px groove #c9c9c9;
+    background-color: #6e6c6c;
+    border-radius: 50px;
+    border-spacing: 10px;
+  }
+  

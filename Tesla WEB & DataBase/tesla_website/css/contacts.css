@@ -1,0 +1,51 @@
+.formContact{
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
+    border: #666666;
+    border-style: solid;
+    background-color: #c6c6c6;
+    border-width: 4px;
+}
+
+.headerdivlogin{
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(216, 216, 216);
+    border-style: groove;
+    border-width: 8px;
+    width: 200;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+.headers3{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1e1e1e;
+    font-size: 26px;
+    border-radius: 50px;
+    width: 190;
+}
+.minorImgContact{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    border: #c9c9c9;
+    border-style:groove; 
+    height: 120px;
+}
+.minorImgContact2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    border: #c9c9c9;
+    border-style:groove; 
+    height: 165px;
+}

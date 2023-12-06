@@ -1,0 +1,92 @@
+.login-css{
+    background-color: rgb(124, 124, 124);
+    color:white;
+    font-style: italic;
+    border: 4px groove rgb(118, 0, 0);
+}
+
+.topnav2 {
+    background-color:rgb(154, 154, 154) ;
+    overflow: hidden;
+    width:  90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#666666;
+
+}
+.minorImg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    border: #c9c9c9;
+    border-style:groove; 
+    height: 280px;
+}
+.minorImg2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    border: #c9c9c9;
+    border-style:groove; 
+    height: 280px;
+}
+
+.topnav2 a{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    padding: 18px;
+    text-decoration: solid;
+    
+    
+}
+.topnav2 a:hover{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.headers2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1e1e1e;
+    font-size: xx-large;
+    background-color: #c9c9c9;
+    width: 160px;
+}
+
+.headerdivlogin{
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(216, 216, 216);
+    border-style: groove;
+    border-width: 8px;
+    width: 200;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+.headers3{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1e1e1e;
+    font-size: 26px;
+    border-radius: 50px;
+    width: 190;
+}
+
+.separation2{
+    border: 2px groove #c9c9c9;
+    border-radius: 50px;
+    width: 550px;
+}

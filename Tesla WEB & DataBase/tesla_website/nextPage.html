@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Submission Result</title>
+</head>
+<body>
+	<h1>הטופס נשלח בהצלחה עם הנתונים הבאים:</h1>
+	<p>שם פרטי: <span id="firstName"></span></p>
+	<p>שם משפחה: <span id="lastName"></span></p>
+	<p>מייל: <span id="email"></span></p>
+	<p>טלפון: <span id="phoneNumber"></span></p>
+	<p>תוכן: <span id="message"></span></p>
+
+	<script>
+		// Get the URL parameters
+		const urlParams = new URLSearchParams(window.location.search);
+
+		// Get the form data from URL parameters
+		const firstName = urlParams.get('firstName');
+		const lastName = urlParams.get('lastName');
+		const email = urlParams.get('email');
+		const phoneNumber = urlParams.get('phoneNumber');
+		const message = urlParams.get('message');
+
+        const urlSearchParams = new URLSearchParams(window.location.search);
+        const formData = Object.fromEntries(urlSearchParams.entries());
+        console.log(formData);
+
+		// Set the form data to the HTML elements
+		document.getElementById('firstName').innerText = firstName;
+		document.getElementById('lastName').innerText = lastName;
+		document.getElementById('email').innerText = email;
+		document.getElementById('phoneNumber').innerText = phoneNumber;
+		document.getElementById('message').innerText = message;
+	</script>
+</body>
+</html>
